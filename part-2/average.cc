@@ -12,7 +12,7 @@ int main(int argc, char* argv[]) {
 
   if (arguments.size() <= 1) {
     std::cout << "Error: At least one command line argument is required."
-              << std::endl; 
+              << std::endl;
     return 1;
   }
 
@@ -37,4 +37,3 @@ int main(int argc, char* argv[]) {
 
   return 0;
 }
-
