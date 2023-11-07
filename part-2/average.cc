@@ -21,7 +21,7 @@ int main(int argc, char* argv[]) {
 
   for (int i = 1; i < arguments.size(); i++) {
     try {
-      double value = std::stod(arguments[i]);
+      double value = std::stoi(arguments[i]);
       sum += value;
       count++;
     } catch (const std::invalid_argument& e) {
